@@ -1,0 +1,75 @@
+body {
+  font-family: "Noto Sans SC", sans-serif;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  color: #725eff;
+}
+
+.btn-ondo {
+  color: #fff;
+  background-color: #725eff;
+  border-color: #725eff;
+  box-shadow: 0 0 5px #725eff;
+}
+.btn-ondo:hover {
+  color: #fff;
+  background-color: #5545ce;
+  border-color: #5545ce;
+  opacity: 0.9;
+  box-shadow: 0 0 5px #5545ce;
+}
+.btn-check:focus + .btn-ondo,
+.btn-ondo:focus {
+  color: #fff;
+  background-color: #5545ce;
+  border-color: #5545ce;
+  box-shadow: 0 0 0 0.25rem #725eff;
+}
+
+.btn-check:active + .btn-ondo,
+.btn-check:checked + .btn-ondo,
+.btn-ondo.active,
+.btn-ondo:active,
+.show > .btn-ondo.dropdown-toggle {
+  color: #fff;
+  background-color: #5545ce;
+  border-color: #5545ce;
+}
+.btn-check:active + .btn-ondo:focus,
+.btn-check:checked + .btn-ondo:focus,
+.btn-ondo.active:focus,
+.btn-ondo:active:focus,
+.show > .btn-ondo.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.25rem #725eff;
+}
+.btn-ondo.disabled,
+.btn-ondo:disabled {
+  color: #fff;
+  background-color: #725eff;
+  border-color: #725eff;
+}
+
+.btn-cl {
+  font-size: 20px;
+  white-space: nowrap;
+  padding: 8px 15px;
+  color: #fff;
+  background-color: transparent;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  box-shadow: 0 0 5px #b5b5b6b4;
+  font-weight: 700;
+  text-align: center;
+  transition: background-color 0.1s, border 0.1s;
+}
+
+@media (max-width: 767px) {
+  .btn-cl {
+    font-size: 10px;
+  }
+}

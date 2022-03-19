@@ -1,0 +1,75 @@
+.login-page {
+  width: 90%;
+}
+.form1 {
+  position: relative;
+  z-index: 1;
+  background: #ffffff;
+  text-align: center;
+}
+.form1 input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.form1 button {
+  font-family: "Roboto", sans-serif;
+  text-transform11: uppercase;
+  outline: 0;
+  background: #725eff;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #ffffff;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+.form1 button:hover,
+.form1 button:active,
+.form1 button:focus {
+  background: #6652fcc0;
+}
+.form1 .message {
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 12px;
+}
+.form1 .message a {
+  color: #725eff;
+  text-decoration: none;
+}
+.form1 .register-form {
+  display: none;
+}
+
+.modal-header {
+  border-bottom: 0;
+}
+
+.modal-footer {
+  border-top: 0;
+}
+
+.modal-body {
+  padding: 0px;
+}
+
+.modal-header {
+  padding: 20px;
+}
+
+.modal-content {
+  max-width: 400px;
+}
+
+.comingsoon {
+  margin-top: 200px;
+}
