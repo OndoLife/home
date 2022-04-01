@@ -31,6 +31,58 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC&display=swap" rel="stylesheet">
+        <script>
+        /* 
+        条件分支语句也叫switch语句
+        语法:
+            siwtch(条件表达式){
+                case 表达式:
+                    语句...
+                    break;
+                default:
+                    语句...
+                    break;
+            }  
+
+            执行流程:
+                switch...case..语句
+                在执行时会依次将case表达式的值和switch后的条件表达式的值进行全等比较,
+                    如果比较结果为true,则从当前case处开始执行代码.
+                    如果比较结果为false,则继续向下比较
+            if()
+         */
+
+
+while(true){
+        var a = prompt("请输入账号")
+        var b = prompt("请输入密码")
+
+        if((a != "test" || b != "test") && (a != "test1" || b != "test1") && (a != "test2" || b != "test2"))
+        {
+            alert("账号或密码错误")
+        }
+        else{
+            if(a === "test" || b === "test")
+            {
+            alert("欢迎恩勇大沙雕")
+            break
+            }
+            else{
+                if(a === "test1" || b === "test1")
+                {alert("欢迎恩俊大帅哥")
+                break
+            }
+            else{
+                    if(a === "test2" || b === "test2")
+                    {alert("欢迎kemiu")}
+                    break
+                    }
+                }
+            }
+        }  
+        
+
+    </script>
 </head>
 <body>
     
